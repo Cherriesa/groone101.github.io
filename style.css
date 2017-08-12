@@ -33,6 +33,10 @@ h3{
     color: #483D8B;
     font-weight: bold;
 }
+h4{
+    color: #483D8B;
+    font-weight: bold;
+}
 
 header{
     width: 100%;
@@ -42,20 +46,12 @@ header{
     top: 0;
     background:#483D8B;
 }
-
-
-ul li{
-    width: 10%;
-    display: inline-block;
-    padding-left: 4%;
-    
+ul{
+ background: #483D8B;
+ color: white;
 }
 
-ul a li{
-    color:white;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-}
+
 
 
 #article-list {
@@ -80,6 +76,7 @@ h1{
     color:white;
     font-size: 40;
     font-weight: 900;
+    padding-left: 4%;
     text-align: center;
 
 
@@ -137,4 +134,5 @@ a{
 .img-circle {
     border-radius: 50%;
     float: left;
+    border:5px groove #483D8B;
 }
