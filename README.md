@@ -1,6 +1,6 @@
 # woyfirman.github.io
 * **About This Site:**
-this website about online-game account trading.
+About me :)
 * **Used Tags & Syntaxes:**
   * color
   * font-size
