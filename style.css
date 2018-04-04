@@ -187,9 +187,10 @@ a{
     color:white;
 }
 .greendiv {
-    margin-left: 5px;
+    margin-left:10%;
     padding:20px;
     background-color:#4CAF50;
+    width:40%
     color:white;
 }
 .bluediv {
