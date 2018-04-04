@@ -180,3 +180,21 @@ a{
 .dropdown a:hover {background-color: #f1f1f1}
 
 .show {display:block;}
+.greendiv {
+    margin-left: 5px;
+    padding:20px;
+    background-color:#4CAF50;
+    color:white;
+}
+.greendiv {
+    margin-left: 5px;
+    padding:20px;
+    background-color:#4CAF50;
+    color:white;
+}
+.bluediv {
+    margin-left: 5px;
+    padding:20px;
+    background-color:##483D8B;
+    color:white;
+}
