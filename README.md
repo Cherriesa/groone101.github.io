@@ -18,5 +18,5 @@ About me :)
   * h1
   * h5
   * other
-* **about Me:** 
+* **Notes:** 
 Hello i'm razindra firman , allahuakbar walillah ilham
