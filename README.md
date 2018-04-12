@@ -19,4 +19,4 @@ About me :)
   * h5
   * other
 * **about Me:** 
-Hello i'm razindra firman , i'm verry happy when i writting programming code . i want to make little thing to help human being more easy .  hopefully i can do what i want with hardwork and god bless me and you ofcourse
+Hello i'm razindra firman , allahuakbar walillah ilham
