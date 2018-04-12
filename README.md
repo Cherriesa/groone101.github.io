@@ -1,6 +1,6 @@
 # woyfirman.github.io
 * **About This Site:**
-About me :)
+   the idea and thinking came out of my mind.
 * **Used Tags & Syntaxes:**
   * color
   * font-size
@@ -19,4 +19,4 @@ About me :)
   * h5
   * other
 * **Notes:** 
-Hello i'm razindra firman , allahuakbar walillah ilham
+Hello i'am razindra firman , allahuakbar walillah ilham
