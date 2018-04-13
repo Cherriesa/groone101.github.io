@@ -42,7 +42,7 @@ h4{
 header{
     width: 100%;
     height: 100px;
-    position: relative;
+    position: static;
     left: 0;
     top: 0;
     background:#483D8B;
