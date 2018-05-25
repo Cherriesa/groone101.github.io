@@ -99,15 +99,11 @@ article{
     
 }
 #two{
-    background-color:#47d147
+    background-color:#0077b3
     
 }
 #three{
-    background-color:#47d147
-    
-}
-#four{
-    background-color:#47d147
+    background-color:#ff0066
     
 }
 
@@ -123,10 +119,7 @@ article{
     background-color: #ddd;
   color: black;
 }
-#four:hover{
-    background-color: #ddd;
-  color: black;
-}
+
 p{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 15;
