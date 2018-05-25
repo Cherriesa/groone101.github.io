@@ -94,7 +94,39 @@ article{
     width: 100%;
     align-content: center;
 }
+#one{
+    background-color:#47d147
+    
+}
+#two{
+    background-color:#47d147
+    
+}
+#three{
+    background-color:#47d147
+    
+}
+#four{
+    background-color:#47d147
+    
+}
 
+#one:hover{
+    background-color: #ddd;
+  color: black;
+}
+#two:hover{
+    background-color: #ddd;
+  color: black;
+}
+#three:hover{
+    background-color: #ddd;
+  color: black;
+}
+#four:hover{
+    background-color: #ddd;
+  color: black;
+}
 p{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 15;
