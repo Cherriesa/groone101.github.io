@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9" crossorigin="anonymous"></script>
+<script>$(document).ready(function() { $('body').bootstrapMaterialDesign(); });</script>
+  <SCRIPT language=JavaScript>
+    <!--
+    //Script by Tom Richardson Jr.
+    //If you have any questions, e-mail me at gooftroop@geocities.com
+    //or visit mt web site at http://home.rmci.net/gooftroop
+    //For this script and more, visit http://javascriptkit.com
+    
+    
+    function perc1() {
+     a = document.form1.a.value/100;
+     b = a*document.form1.b.value;
+     document.form1.total1.value = b
+     }
+    function perc2() {
+     a = document.form1.c.value;
+     b = document.form1.d.value;
+     c = a/b;
+     d = c*100;
+     document.form1.total2.value = d
+     }
+    //-->
+    </SCRIPT>
+   
+    <style>
+
+ #lala{
+        font-weight: 400;
+        color:black;
+        
+    }
+    #column-in-center{
+    float: none;
+    margin: 0 auto;
+}
+.currencyinput {
+    border: 2px #ccc;
+}
+.currencyinput input {
+    border: 2;
+}
+hr {
+    border: solid;
+    color: #006064;
+    background-color: #006064;
+   
+    /* Set the hr color */
+   /* old IE */
+}
+input[type="number"],select {
+
+background-color : #EEEEEE; 
+width: 15%;
+
+}
+input[type="number"]:focus, textarea {
+
+background-color :white; 
+width: 15%;
+
+}
+#divshadow{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+    
+    
+    </style>
+</head>
+<body>
+
+<div class="jumbotron text-center">
+  <h1 style="color: #006064
+  ">Percantage Calculator</h1>
+  <p style="color: #006064">made with love and bootsrtap material design</p> 
+  <hr width="40%">
+  <div class="row"  >
+        <div class="col-md-2"></div>
+        <div class="col-md-8" id="divshadow">
+            <center>
+<table class="table">
+
+<tbody>
+<tr>
+  
+    <td><a id="lala">What is</a> <span class="input-group-addon"></span> <INPUT type="number" size=5 name=c style="border:2px solid  #006064"> <a>% of</a> <INPUT type="number" size=5 name=c style="border:2px solid  #006064"> <a>?</a></td>
+        <td>
+           
+                <input type="email"  class="form-control" id="inputEmail4" placeholder="Answer" disabled>
+              </div></td>
+        
+   
+
+
+</tr>
+<tr>
+  
+    <td><INPUT type="number" size=5 name=c style="border:2px solid  #006064"> <a>is what percent of</a> <INPUT type="number" size=5 name=c style="border:2px solid  #006064"> <a>?</a></td>
+      <td>
+           
+            <input type="email" class="form-control" id="inputEmail4" placeholder="Answer" readonly>
+          </div></td>
+       
+
+</tr>
+<tr>
+  
+    <td><INPUT type="number"size=5 name=c style="border:2px solid  #006064"> <a>are</a> <INPUT type="number" size=5 name=c style="border:2px solid  #006064"><a>% from how much ?</a></td>
+      <td>
+           
+            <input type="email" class="form-control" id="inputEmail4" placeholder="Answer" readonly>
+          </div></td>
+      
+
+</tr>
+<tr>
+  
+    <td>What is the percentage increase / decrease ...</td>
+    
+
+</tr>
+<tr>
+  
+    <td> <a>from</a> <INPUT type="number" size=5 name=c style="border:2px solid  #006064"> <a>to</a> <INPUT type="number" size=5 name=c style="border:2px solid  #006064"> ?</td>
+      <td>
+           
+            <input type="email" class="form-control" id="inputEmail4" placeholder="Answer" readonly>
+          </div></td>
+ 
+
+</tr>
+<tr>
+  
+    <td>Percent increase / decrease to one value:</td>
+    
+
+
+</tr>
+<tr>
+  
+    <th scope="row"><INPUT type="number" size=5 name=c style="border:2px solid  #006064"> &nbsp;&nbsp;&nbsp;<select name="value" style="border:2px solid  #006064">
+            <option value="volvo">increase</option>
+            <option value="saab">Decrease</option>
+         
+          </select>&nbsp;&nbsp;&nbsp;<INPUT type="number" size=5 name=c style="border:2px solid  #006064"> ?</th>
+      <td>
+           
+            <input type="email" class="form-control" id="inputEmail4" placeholder="Answer" readonly>
+          </div></td>
+        
+
+</tr>
+
+<tr>
+<th>
+
+</th>
+
+    <TD><INPUT type="button" onclick="perc1()" class="btn btn-primary" value="calculating" ></TD>
+
+
+
+</tr>
+</tbody>
+</table>
+
+            </center>
+
+      
+      </div>
+                
+
+        
+    </div>
+
+</div>
+</div>
+  
+<div class="container">
+ 
+       
+</div>
+
+</body>
+</html>
